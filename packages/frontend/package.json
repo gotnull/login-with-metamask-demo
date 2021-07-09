@@ -3,7 +3,7 @@
 	"version": "2.0.0",
 	"author": "Fuzz <fcusumano@gmail.com>",
 	"description": "One-click Login with Blockchain'",
-	"homepage": "http://amaurym.com/login-with-metamask-demo",
+	"homepage": "http://blockchain.fulvio.space",
 	"license": "MIT",
 	"main": "build",
 	"private": true,
