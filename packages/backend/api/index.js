@@ -1,10 +1,10 @@
-import './db';
+import '../db';
 
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import express from 'express';
 
-import { services } from '../services';
+import { services } from '../src/services';
 
 const app = express();
 
