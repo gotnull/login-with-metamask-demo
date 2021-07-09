@@ -15,8 +15,6 @@ app.use(cors());
 // Mount REST on /api
 app.use('/api', services);
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT;
 
-app.listen(port, () =>
-	console.log(`Express app listening on localhost:${port}`)
-);
+app.listen(port, () => console.log(`Express app listening on: ${port}`));
