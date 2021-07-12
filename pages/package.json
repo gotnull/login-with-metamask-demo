@@ -1,0 +1,6 @@
+{
+  "name": "pages",
+  "dependencies": {
+    "next": "^11.0.1"
+  }
+}
