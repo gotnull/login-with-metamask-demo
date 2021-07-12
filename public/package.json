@@ -1,5 +1,13 @@
-"scripts": {
-  "dev": "node server.js",
-  "build": "next build",
-  "start": "NODE_ENV=production node server.js"
+{
+	"name": "public",
+	"version": "1.0.0",
+	"author": "Fuzz <fcusumano@gmail.com>",
+	"description": "One-click Login with Blockchain",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  }
 }
