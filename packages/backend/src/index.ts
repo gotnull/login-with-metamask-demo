@@ -1,16 +1,24 @@
-const app = require('express')();
-const { v4 } = require('uuid');
+import './db';
 
-app.get('/api', (req: any, res: any) => {
-  const path = `/api/item/${v4()}`;
-  res.setHeader('Content-Type', 'text/html');
-  res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate');
-  res.end(`Hello! Go to item: <a href="${path}">${path}</a>`);
-});
+import bodyParser from 'body-parser';
+import cors from 'cors';
+import express from 'express';
 
-app.get('/api/item/:slug', (req: any, res: any) => {
-  const { slug } = req.params;
-  res.end(`Item: ${slug}`);
-});
+import { services } from './services';
+
+const app = express();
+
+// Middlewares
+app.use(bodyParser.json());
+app.use(cors());
+
+// Mount REST on /api
+app.use('/api', services);
 
 module.exports = app;
+
+// const port = process.env.PORT || 8000;
+
+// app.listen(port, () =>
+// 	console.log(`Express app listening on localhost:${port}`)
+// );
