@@ -18,6 +18,7 @@
     "isolatedModules": true
   },
   "include": [
+		"pages/api/server.js",
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
