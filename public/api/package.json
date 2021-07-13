@@ -1,6 +1,0 @@
-{
-  "name": "api",
-  "devDependencies": {
-    "@vercel/node": "^1.11.1"
-  }
-}
