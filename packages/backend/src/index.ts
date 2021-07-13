@@ -13,4 +13,4 @@ app.get('/api/item/:slug', (req: any, res: any) => {
   res.end(`Item: ${slug}`);
 });
 
-export {};
+module.exports = app;

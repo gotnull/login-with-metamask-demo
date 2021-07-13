@@ -2,7 +2,7 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "outDir": "../../../pages/api",
+    "outDir": "../../public/api",
     "module": "commonjs",
     "strict": true,
     "target": "es6"
