@@ -1,9 +1,28 @@
 {
-	"extends": "./node_modules/@amaurym/tsconfig/tsconfig",
-	"compilerOptions": {
-		"jsx": "react",
-		"moduleResolution": "node",
-		"skipLibCheck": true,
-		"target": "es6"
-	}
+  "extends": "./node_modules/@amaurym/tsconfig/tsconfig",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
