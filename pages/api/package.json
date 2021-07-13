@@ -2,7 +2,7 @@
 	"name": "public",
 	"version": "1.0.0",
 	"author": "Fuzz <fcusumano@gmail.com>",
-	"description": "One-click Login with Blockchain",
+	"description": "API",
 	"license": "MIT",
 	"private": true,
 	"scripts": {
