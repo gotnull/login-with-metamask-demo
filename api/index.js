@@ -15,7 +15,3 @@ app.use(cors_1.default());
 // Mount REST on /api
 app.use('/api', services_1.services);
 module.exports = app;
-// const port = process.env.PORT || 8000;
-// app.listen(port, () =>
-// 	console.log(`Express app listening on localhost:${port}`)
-// );
