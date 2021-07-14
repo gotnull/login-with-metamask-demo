@@ -23,6 +23,7 @@
     "@types/jsonwebtoken": "^8.5.0",
     "@types/validator": "^13.1.0",
     "body-parser": "^1.18.3",
+    "browserslist": "^4.16.6",
     "cors": "^2.8.5",
     "eth-sig-util": "^3.0.0",
     "ethereumjs-util": "^7.0.5",
