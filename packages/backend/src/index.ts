@@ -15,5 +15,4 @@ app.use(cors());
 // Mount REST on /api
 app.use('/api', services);
 
-module.exports.services = services;
-module.exports.app = app;
+module.exports = { services, app };
